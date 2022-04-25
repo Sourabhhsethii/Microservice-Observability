@@ -1,0 +1,17 @@
+{
+	"ulid": "01G14T4BEQZTB6ZX6C551G4XW6",
+	"minTime": 1650492005924,
+	"maxTime": 1650499200000,
+	"stats": {
+		"numSamples": 156000,
+		"numSeries": 325,
+		"numChunks": 1300
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01G14T4BEQZTB6ZX6C551G4XW6"
+		]
+	},
+	"version": 1
+}

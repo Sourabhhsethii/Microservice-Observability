@@ -1,0 +1,17 @@
+{
+	"ulid": "01G15102PSN76FX52R3F90S2NN",
+	"minTime": 1650499205924,
+	"maxTime": 1650506400000,
+	"stats": {
+		"numSamples": 156000,
+		"numSeries": 325,
+		"numChunks": 1300
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01G15102PSN76FX52R3F90S2NN"
+		]
+	},
+	"version": 1
+}

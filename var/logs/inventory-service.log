@@ -1,0 +1,110 @@
+2021-06-11T06:48:59,895 [main] INFO  com.upgrad.inventoryservice.InventoryService - Starting InventoryService v1.0-SNAPSHOT using Java 11.0.11 on a4be6c8cc3dc with PID 1 (/inventory-service.jar started by root in /)
+2021-06-11T06:48:59,981 [main] DEBUG com.upgrad.inventoryservice.InventoryService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T06:48:59,983 [main] INFO  com.upgrad.inventoryservice.InventoryService - No active profile set, falling back to default profiles: default
+2021-06-11T06:49:02,247 [main] INFO  com.upgrad.inventoryservice.InventoryService - Started InventoryService in 3.148 seconds (JVM running for 6.65)
+2021-06-11T07:00:40,245 [main] INFO  com.upgrad.inventoryservice.InventoryService - Starting InventoryService v1.0-SNAPSHOT using Java 11.0.11 on 478099d13dfd with PID 1 (/inventory-service.jar started by root in /)
+2021-06-11T07:00:40,279 [main] DEBUG com.upgrad.inventoryservice.InventoryService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:00:40,283 [main] INFO  com.upgrad.inventoryservice.InventoryService - No active profile set, falling back to default profiles: default
+2021-06-11T07:00:43,872 [main] INFO  com.upgrad.inventoryservice.InventoryService - Started InventoryService in 5.153 seconds (JVM running for 8.553)
+2021-06-11T07:03:59,376 [main] INFO  com.upgrad.inventoryservice.InventoryService - Starting InventoryService v1.0-SNAPSHOT using Java 11.0.11 on 9566a87e4dc4 with PID 1 (/inventory-service.jar started by root in /)
+2021-06-11T07:03:59,400 [main] DEBUG com.upgrad.inventoryservice.InventoryService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:03:59,409 [main] INFO  com.upgrad.inventoryservice.InventoryService - No active profile set, falling back to default profiles: default
+2021-06-11T07:04:03,101 [main] INFO  com.upgrad.inventoryservice.InventoryService - Started InventoryService in 4.349 seconds (JVM running for 6.857)
+2021-06-11T07:06:49,323 [main] INFO  com.upgrad.inventoryservice.InventoryService - Starting InventoryService v1.0-SNAPSHOT using Java 11.0.11 on 693574f7633c with PID 1 (/inventory-service.jar started by root in /)
+2021-06-11T07:06:49,346 [main] DEBUG com.upgrad.inventoryservice.InventoryService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:06:49,348 [main] INFO  com.upgrad.inventoryservice.InventoryService - No active profile set, falling back to default profiles: default
+2021-06-11T07:06:52,575 [main] INFO  com.upgrad.inventoryservice.InventoryService - Started InventoryService in 3.934 seconds (JVM running for 6.365)
+2021-06-11T07:10:28,420 [main] INFO  com.upgrad.inventoryservice.InventoryService - Starting InventoryService v1.0-SNAPSHOT using Java 11.0.11 on 6afd1b4389e4 with PID 1 (/inventory-service.jar started by root in /)
+2021-06-11T07:10:28,439 [main] DEBUG com.upgrad.inventoryservice.InventoryService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-11T07:10:28,442 [main] INFO  com.upgrad.inventoryservice.InventoryService - No active profile set, falling back to default profiles: default
+2021-06-11T07:10:34,964 [main] INFO  com.upgrad.inventoryservice.InventoryService - Started InventoryService in 7.726 seconds (JVM running for 11.068)
+2021-06-11T07:19:19,923 [http-nio-8070-exec-5] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=300
+2021-06-11T07:19:31,412 [http-nio-8070-exec-6] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=500
+2021-06-11T07:19:31,415 [http-nio-8070-exec-6] ERROR com.upgrad.inventoryservice.controller.InventoryController - Exception in fetching details for Item=500
+com.upgrad.inventoryservice.model.InventoryException: Item not available
+	at com.upgrad.inventoryservice.service.InventoryServiceImpl.getPrice(InventoryServiceImpl.java:14) ~[classes!/:1.0-SNAPSHOT]
+	at com.upgrad.inventoryservice.controller.InventoryController.getItem(InventoryController.java:30) [classes!/:1.0-SNAPSHOT]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.6.jar!/:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93) [spring-boot-actuator-2.4.5.jar!/:2.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.6.jar!/:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at io.opentracing.contrib.web.servlet.filter.TracingFilter.doFilter(TracingFilter.java:189) [opentracing-web-servlet-filter-0.4.0.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.45.jar!/:?]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.45.jar!/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.45.jar!/:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2021-06-11T07:19:39,052 [http-nio-8070-exec-8] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=300
+2022-04-20T00:35:31,451 [main] INFO  com.upgrad.inventoryservice.InventoryService - Starting InventoryService v1.0-SNAPSHOT using Java 11.0.15 on 4ba1660ea820 with PID 1 (/inventory-service.jar started by root in /)
+2022-04-20T00:35:31,473 [main] DEBUG com.upgrad.inventoryservice.InventoryService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2022-04-20T00:35:31,481 [main] INFO  com.upgrad.inventoryservice.InventoryService - No active profile set, falling back to default profiles: default
+2022-04-20T00:35:39,408 [main] INFO  com.upgrad.inventoryservice.InventoryService - Started InventoryService in 9.237 seconds (JVM running for 12.079)
+2022-04-20T00:41:26,534 [http-nio-8070-exec-1] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T00:41:28,915 [http-nio-8070-exec-2] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T00:41:46,191 [http-nio-8070-exec-3] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T00:41:46,978 [http-nio-8070-exec-4] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T00:41:47,846 [http-nio-8070-exec-5] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T00:41:48,647 [http-nio-8070-exec-6] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T00:41:51,022 [http-nio-8070-exec-7] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T00:41:51,713 [http-nio-8070-exec-8] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T01:23:09,123 [http-nio-8070-exec-6] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T01:23:14,454 [http-nio-8070-exec-8] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T01:23:14,750 [http-nio-8070-exec-9] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T14:15:04,858 [main] INFO  com.upgrad.inventoryservice.InventoryService - Starting InventoryService v1.0-SNAPSHOT using Java 11.0.15 on 4ba1660ea820 with PID 1 (/inventory-service.jar started by root in /)
+2022-04-20T14:15:04,888 [main] DEBUG com.upgrad.inventoryservice.InventoryService - Running with Spring Boot v2.4.5, Spring v5.3.6
+2022-04-20T14:15:04,893 [main] INFO  com.upgrad.inventoryservice.InventoryService - No active profile set, falling back to default profiles: default
+2022-04-20T14:15:10,259 [main] INFO  com.upgrad.inventoryservice.InventoryService - Started InventoryService in 6.508 seconds (JVM running for 9.586)
+2022-04-20T14:33:44,214 [http-nio-8070-exec-4] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T14:33:45,683 [http-nio-8070-exec-5] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T14:33:46,390 [http-nio-8070-exec-6] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T14:33:50,655 [http-nio-8070-exec-7] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T14:37:13,074 [http-nio-8070-exec-2] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T14:37:22,465 [http-nio-8070-exec-4] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
+2022-04-20T14:37:30,521 [http-nio-8070-exec-6] INFO  com.upgrad.inventoryservice.controller.InventoryController - Fetching details for Item=350
